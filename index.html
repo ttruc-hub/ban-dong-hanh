@@ -1,0 +1,16 @@
+document.getElementById('modal-lesson').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('modal-lesson').classList.add('hidden');
+        }
+
+        function completeChallenge() {
+            const btn = document.getElementById('challenge-btn');
+            btn.className = "bg-slate-300 text-slate-600 text-xs font-medium px-4 py-2 rounded-xl cursor-not-allowed";
+            btn.innerHTML = "✓ Bạn đã hoàn thành thử thách tuần này!";
+            btn.onclick = null;
+        }
+    </script>
+</body>
+</html>
